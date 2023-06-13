@@ -1,0 +1,12 @@
+
+.btn-group-vertical{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.left-column{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(248, 249, 250) ;
+}

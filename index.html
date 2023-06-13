@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email Template</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"  />
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">   
+
+</head>
+<body>
+
+<div class="pos-f-t">
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-dark p-4">
+      <h5 class="text-white h4">Collapsed content</h5>
+      <span class="text-muted">Toggleable via the navbar brand.</span>
+    </div>
+  </div>
+  <nav class="navbar navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-4 left-column">
+      <!-- Inbox, Sent, Trash -->
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
+        <label class="btn btn-primary active">
+          <input type="radio" name="options" id="option1" autocomplete="off" checked><i class="bi bi-envelope"></i> Inbox <span class="badge badge-light">4</span>
+        </label>
+        <label class="btn btn-light">
+          <input type="radio" name="options" id="option2" autocomplete="off"><i class="bi bi-send"></i> Sent
+        </label>
+        <label class="btn btn-light">
+          <input type="radio" name="options" id="option3" autocomplete="off"><i class="bi bi-envelope-paper"></i> Drafts
+        </label>
+        <label class="btn btn-light">
+          <input type="radio" name="options" id="option4" autocomplete="off"><i class="bi bi-trash"></i> Trash
+        </label>
+        <label class="btn btn-light">
+          <input type="radio" name="options" id="option5" autocomplete="off"><i class="bi bi-slash-circle"></i> Spam
+        </label>
+      </div>
+    </div>
+    <div class="col-md-4 middle-column">
+      <!-- Overview of Emails -->
+      <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-primary list-group-item-action flex-column align-items-start active">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Email Subject</h5>
+            <small>4 days ago</small>
+          </div>
+          <p class="mb-1">Random email paragraph. Random email paragraph. Random email paragraph.</p>
+         
+        </a>
+        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Email Subject</h5>
+            <small class="text-muted">4 days ago</small>
+          </div>
+          <p class="mb-1">Random email paragraph. Random email paragraph. Random email paragraph.</p>
+         
+        </a>
+        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Email Subject</h5>
+            <small class="text-muted">4 days ago</small>
+          </div>
+          <p class="mb-1">Random email paragraph. Random email paragraph. Random email paragraph.</p>
+        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Email Subject</h5>
+            <small class="text-muted">4 days ago</small>
+          </div>
+          <p class="mb-1">Random email paragraph. Random email paragraph. Random email paragraph.</p>
+          
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4 right-column">
+      <!-- Current Email Open -->
+      <div class="card">
+        <div class="card-body">
+          <h6 class="card-subtitle mb-2 text-muted">From: bob@gmail.com</h6> 
+          <h6 class="card-subtitle mb-2 text-muted">To: nick@gmail.com</h6>
+          <div class="card-header">Subject: Random 
+            <span class="float-right"><button type="button" class="btn btn-outline-dark btn-sm"><i class="bi bi-reply"></i>
+            </button>
+            <button type="button" class="btn btn-outline-dark btn-sm"><i class="bi bi-trash"></i></button>
+          </span></div>
+          <p class="card-text">Random email paragraph. Random email paragraph. Random email paragraph. Random email paragraph. Random email paragraph. Random email paragraph. Random email paragraph. Random email paragraph. Random email paragraph. Random email paragraph. Random email paragraph. Random email paragraph. Random email paragraph. Random email paragraph. Random email paragraph. Random email paragraph. Random email paragraph. Random email paragraph.</p>
+          <div class="form-group">
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
